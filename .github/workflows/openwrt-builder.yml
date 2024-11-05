@@ -13,6 +13,9 @@
 name: OpenWrt Builder
 
 on:
+  label:
+    types:
+      - created
   repository_dispatch:
   workflow_dispatch:
 
